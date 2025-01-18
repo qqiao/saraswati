@@ -1,0 +1,8 @@
+[package]
+name = "saraswati-lib"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+swc_ecma_ast = "5.0.2"
+swc_ecma_visit = "5.0.0"
