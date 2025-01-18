@@ -4,5 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+log = "0.4.25"
+swc_common = { version = "5.0.0", features = ["tty-emitter"] }
 swc_ecma_ast = "5.0.2"
+swc_ecma_parser = { version = "6.0.2", features = ["typescript"] }
 swc_ecma_visit = "5.0.0"
+thiserror = "2.0.11"
